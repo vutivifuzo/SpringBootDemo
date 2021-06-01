@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Sparkling Products</title>
+</head>
+
+
+<h1>  Sparkling Magic</h1>
+<p1 th:text="${name}"/>
+
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css" href="css/styl.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- Navigation
+    ==========================================-->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <!--<img src="img/Logo.png" alt="Logo" style="height:100%; float:left;"> -->
+            <a class="navbar-brand page-scroll" href="#page-top"><img src="img/Logo.jpg" alt="Logo" style="height:auto;width: 10%; float:left;"></a>
+            <div class="phone"><span>Call Today</span>(011)-123-4567</div>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/home" class="page-scroll">Home</a></li>
+                <li><a href="about us.html" class="page-scroll">About</a></li>
+                <li><a href="services.html" class="page-scroll">Services</a></li>
+                <li><a href="gallery.html" class="page-scroll">Product Prices</a></li>
+
+                <li><a href="/register" class="page-scroll">Registration</a></li>
+                <li><a href="contact.html" class="page-scroll">Contact</a></li>
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</nav>
+<!-- Header -->
+<header id="header">
+    <div class="intro">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 intro-text">
+                        <h1>Hair<br>
+                            & Beauty Produts</h1>
+                        <p>Allow us to help you get the perfect even tone and  glowing skin at an affordable price.</p>
+                        <a href="about us.html" class="btn btn-custom btn-lg page-scroll">Learn More</a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Get Touch Section -->
+<div id="get-touch">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-md-offset-1">
+                <h3>SA-Covid 19 Update</h3>
+                <p>Get the latest South Africa covid-19 from the official SA covid-19 site</p>
+            </div>
+            <div class="col-xs-12 col-md-4 text-center"><a href="https://sacoronavirus.co.za/" class="btn btn-custom btn-lg page-scroll">SA-Covid 19</a></div>
+        </div>
+    </div>
+</div>
+<!-- About Section -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-6"> <img src="img/home.jpg" class="img-responsive" alt=""> </div>
+            <div class="col-xs-12 col-md-6">
+                <div class="about-text">
+                    <h2>Are you suffering from acne?</h2>
+                    <p> Are you struggling from uneven tone or dry skin? We are your solution  </p>
+                    <h3>Why Choose Us?</h3>
+                    <div class="list-style">
+                        <div class="col-lg-6 col-sm-6 col-xs-12">
+                            <ul>
+                                <li>Years of Experience</li>
+                                <li>Affordable prices</li>
+                                <li>Scientifically tested </li>
+                                <li>100% Satisfaction Guarantee</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 col-xs-12">
+                            <ul>
+                                <li>Approved by SA Forum</li>
+                                <li>100% Organic</li>
+                                <li>100% Quality</li>
+                                <li>Results from 4 days</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="contact">
+    <div class="container">
+        <div class="col-md-8">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Benefits of using our products</h2>
+                    <p> How much is your product?
+                        Prices vary from retailer to retailer
+                        Can I use the oil on my face?
+                        You can use a small amount Marula Skin Oil on your face in the morning before you apply the Marula Skin Day Cream  and in the evenings before you apply the Marula Skin Night Cream.
+
+                        How long till I get to see the results?
+                        Each individual results vary from person to person, we recommend you use the products for 3-6months or longer to see visible results
+
+                        Does the product remove the dark marks permanently?
+                        Our products do reduce marks when used consistently.
+
+                        Does it give complexion?
+                        Our products keep your natural complexion while correcting uneven skin tone, blemishes and dehydrated skin..</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-12">
+        <div class="row">
+            <div class="social">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-md-offset-1">
+                <h3>View available Products and Order</h3>
+                <p>The opportunity now exists for you to get a perfect skin.
+                    Are you suffering from dry skin</p>
+            </div>
+            <div class="col-xs-12 col-md-4 text-center"><a href="bookings/signup_form" class="btn btn-custom btn-lg page-scroll">Order Now </a></div>
+        </div>
+    </div>
+</div>
+<!-- Footer Section -->
+<div id="footer">
+    <div class="container text-center">
+        <p>&copy; 2021 . Design by <a href="#" rel="nofollow">MMV</a></p>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/nivo-lightbox.js"></script>
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+<script type="text/javascript" src="js/contact_me.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+
+
+
+
+</html>

@@ -1,0 +1,113 @@
+
+
+       *{
+	     margin:0px;
+		 padding:0px;
+		 box-sizing:border-box;
+	   
+      }
+	   body{
+	      font-family:"open Sans";
+	   
+	 }
+   a{
+      text-decoration:none;
+	  outline:none
+   }
+   a img{
+    border:none;
+   }
+   .clr{
+   
+   clear:both;
+   }
+   .footer-main{
+                width:100%;
+				height: auto;
+				margin:auto;
+				background:#3d3d3d;
+				padding:30px 20px;
+   }
+   .footer-inner{
+     width:1200px;
+	 height:auto;
+	 margin:auto; 
+   
+   } 
+   .footer-left{
+     width:275px;
+	 height:auto;
+	 float:left;
+	 
+   }
+   .footer-box{
+     width:100%;
+	 height:auto;
+	 margin:auto;
+	 margin-bottom:30px;
+	 
+   }
+    .footer-box h6{
+     font-family:"Open Sans";
+	 font-size:25px;
+	 color:#fff;
+	 text-align:left;
+	 margin:0px;
+	 font-weight:bold;
+	 text-transform:uppercase;
+	 margin-bottom:15px;
+   }
+   .footer-box ul{
+     margin:0px;
+	 padding:0px;
+   }
+   .footer-box ul li{
+     list-style-type:none;
+	 padding-top:2px;
+	 text-align:left;
+   }
+   .footer-box ul li a{
+	  font-family:"Open Sans";
+	  font-size:14px;
+	  color:#999;
+   }
+      .footer-box ul li a i{
+	  font-size:14px;
+	  color:#fff;
+	  width:20px;
+	  height:auto;
+	  padding-right:25px;
+   }
+   .footer-box ul li a:hover{
+	  color:#fff;
+   }
+.footer-right{
+     width:285px;
+	 height:auto;
+	 float:right;
+
+   }
+    .footer-box h5{
+     font-family:"Open Sans";
+	 font-size:20px;
+	 color:#fff;
+	 text-align:left;
+	 margin:0px;
+	 font-weight:bold;
+	 text-transform:uppercase;
+	 margin-bottom:15px;
+   }
+   .footer-box p{
+     font-family:"Open Sans";
+	  font-size:14px;
+	  color:#999;
+	  padding-top:2px;
+	 text-align:right;
+	 margin:0px;
+   }
+   .footer-box p a{
+     font-family:"Open Sans";
+	  font-size:14px;
+	  color:#999;
+   
+   }
